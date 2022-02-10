@@ -19,4 +19,4 @@
 - pythonで画像認識して類似画像の分類をしようとしたが、そもそも環境構築で色々詰んだ..
 
 ## URL
-https://daideguchi.github.io/sotusei1/
+https://daideguchi.github.io/sotusei_1/
