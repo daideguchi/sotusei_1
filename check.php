@@ -4,7 +4,7 @@ session_start();
  
 /* 会員登録の手続き以外のアクセスを飛ばす */
 if (!isset($_SESSION['join'])) {
-    header('Location: entry.php');
+    header('Location: index.php');
     exit();
 }
  
@@ -58,7 +58,7 @@ if (!empty($_POST['check'])) {
             </div>
             
             <br>
-            <a href="entry.php" class="back-btn">変更する</a>
+            <a href="index.php" class="back-btn">変更する</a>
             <button type="submit" class="btn next-btn">登録する</button>
             <div class="clear"></div>
         </form>
